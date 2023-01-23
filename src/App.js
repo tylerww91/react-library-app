@@ -13,7 +13,6 @@ function App() {
         <Route path="/books/:id" component={BookDetail} />
         <Route path="/books" component={BookList} />
         <Route path="/" component={Home} />
-        {/* <BookList /> */}
       </Switch>
     </main>
   );
