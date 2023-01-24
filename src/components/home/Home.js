@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Library Catalog</h1>
       <h2>
         Welcome to Tylers library! Check out my excellent selection of reading material within our{' '}
-        <Link to="/books">catalog</Link>
+        <Link to={`/books`}>catalog</Link>
       </h2>
     </div>
   );
